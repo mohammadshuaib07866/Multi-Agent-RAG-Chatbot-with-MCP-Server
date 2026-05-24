@@ -7,7 +7,7 @@ from chatbot import chatbot
 CONFIG = {"configurable": {"thread_id": "thread-1"}}
 
 
-st.title("Multi-Agent RAG Chatbot with MCP Server")
+st.title("Simple Chat System")
 
 if "message_history" not in st.session_state:
     st.session_state["message_history"] = []
